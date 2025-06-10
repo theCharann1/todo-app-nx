@@ -4,10 +4,7 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/todo-app-e2e"
-    },
-    {
-      "path": "./apps/todo-app"
+      "path": "./apps/web"
     }
   ]
 }
