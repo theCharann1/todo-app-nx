@@ -7,10 +7,10 @@ export default defineConfig({
       cypressDir: 'src',
       bundler: 'vite',
       webServerCommands: {
-        default: 'npx nx run @todo-app/todo-app:dev',
-        production: 'npx nx run @todo-app/todo-app:preview',
+        default: 'npx nx run web:dev',
+        production: 'npx nx run web:preview',
       },
-      ciWebServerCommand: 'npx nx run @todo-app/todo-app:preview',
+      ciWebServerCommand: 'npx nx run web:preview',
       ciBaseUrl: 'http://localhost:4300',
     }),
     baseUrl: 'http://localhost:4200',
